@@ -327,7 +327,8 @@ function getClusterProperties(cluster) {
         cluster: true,
         cluster_id: cluster.id,
         point_count: count,
-        point_count_abbreviated: abbrev
+        point_count_abbreviated: abbrev,
+        properties: cluster
     });
 }
 
